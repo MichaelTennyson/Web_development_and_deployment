@@ -1,0 +1,187 @@
+doctype html
+html(lang="en")
+
+    #container
+        img.logo1(src='img/header-bg.jpg')
+        img.logo2(src='img/header-logo.jpg')
+
+        head 
+            title=title
+            include includes/styles
+        body 
+            .page-wrapper 
+                include includes/header 
+                block content
+
+        main
+            section#categories.cf
+                h2.sub-heading Categories
+                article.series.fixed-single
+                    h4 Road Bikes
+                    p Come see the casual city peddlers...
+                article.series.premium
+                    h4 Mountain Bikes
+                    p All the high tier pros ride these in the Hills
+                article.series.city-bikes
+                    h4 Folding Bikes
+                    p Street Playground
+                article.series.premium
+                    h4 Electric Bikes
+                    p Charge it an ride on
+                article.series.city-bikes
+                    h4 Hybrid Bikes
+                    p Charge it an ride on
+                    br
+                    br
+                    br
+            section#popular-bikes
+                h2.sub-heading2 Regularly purchased bikes:
+                ul
+                    li.cf
+                        img(src='img/Capture1.PNG')
+                        .bike-info
+                            h5 Apolla Phaze
+                            p.bike-price 200.00
+                            p.brakes Steel V-Brakes
+                        .bike-option
+                            select#bike-mods
+                                option(value='option' disabled='' selected='') Option
+                                option(value='premium') Pro
+                                option(value='regular') Regular
+                            input(type='submit' value='Order')
+                    li.cf
+                        img(src='img/Capture2.PNG')
+                        .bike-info
+                            h5 Carrera Valour
+                            p.bike-price 350.00
+                            p.brakes Disc Brakes
+                        .bike-option
+                            select#bike-mods
+                                option(value='option' disabled='' selected='') Option
+                                option(value='pro') Pro
+                                option(value='regular') Regular
+                            input(type='submit' value='Order')
+                    li.cf
+                        img(src='img/Capture3.PNG')
+                        .bike-info
+                            h5 Carrera
+                            p.bike-Name Subway
+                            p.bike-price 1200.00
+                            p.brakes Hydraulic Disc Brakes
+                            p.stock Out of Stock
+                        .bike-option
+                            select#bike-mods
+                                option(value='option' disabled='' selected='') Option
+                                option(value='pro') Premium
+                                option(value='regular') Regular
+                            input(type='submit' value='Order')
+                    li.cf
+                        img(src='img/Capture4.PNG')
+                        .bike-info
+                            h5 Raleigh Evo
+                            p.bike-price 300.00
+                            p.brakes Lightweight alloy
+                        .bike-option
+                            select#bike-mods
+                                option(value='option' disabled='' selected='') Option
+                                option(value='pro') Premium
+                                option(value='regular') Regular
+                            input(type='submit' value='Order')
+                    li.cf
+                        img(src='img/Capture5.PNG')
+                        .bike-info
+                            h5 Bordman HYB
+                            p.bike-price 590.00
+                            p.brakes Disc-Brakes
+                            p.stock Out of Stock
+                        .bike-option
+                            select#bike-mods
+                                option(value='option' disabled='' selected='') Option
+                                option(value='pro') Premium
+                                option(value='regular') Regular
+                            input(type='submit' value='Order')
+                    li.cf
+                        img(src='img/Capture6.PNG')
+                        .bike-info
+                            h5 Carrera Virtuoso
+                            p.bike-price 430.00
+                            p.brakes Disc-Brakes
+                        .bike-option
+                            select#bike-mods
+                                option(value='option' disabled='' selected='') Option
+                                option(value='pro') Premium
+                                option(value='regular') Regular
+                            input(type='submit' value='Order')
+                    li.cf
+                        img(src='img/Capture7.PNG')
+                        .bike-info
+                            h5 Bordman ADV
+                            p.bike-price 850.00
+                            p.brakes Disc-Brakes
+                        .bike-option
+                            select#bike-mods
+                                option(value='option' disabled='' selected='') Option
+                                option(value='pro') Premium
+                                option(value='regular') Regular
+                            input(type='submit' value='Order')
+                    li.cf
+                        img(src='img/Capture8.PNG')
+                        .bike-info
+                            h5 Carrera Vengeance
+                            p.bike-price 400.00
+                            p.brakes Mechanical Disc-Brakes
+                        .bike-option
+                            select#bike-mods
+                                option(value='option' disabled='' selected='') Option
+                                option(value='pro') Premium
+                                option(value='regular') Regular
+                            input(type='submit' value='Order')
+                    li.cf
+                        img(src='img/Capture9.PNG')
+                        .bike-info
+                            h5 Indi Kaisa
+                            p.bike-price 170.00
+                            p.brakes Steel V-Brakes
+                        .bike-option
+                            select#bike-mods
+                                option(value='option' disabled='' selected='') Option
+                                option(value='pro') Premium
+                                option(value='regular') Regular
+                            input(type='submit' value='Order')
+                        li.cf
+                            img(src='img/Capture10.PNG')
+                            .bike-info
+                                h5 Brompton B75
+                                p.bike-price 950.00
+                                p.brakes Dual Pivot Callper
+                                p.stock Out of Stock
+                            .bike-option
+                                select#bike-mods
+                                    option(value='option' disabled='' selected='') Option
+                                    option(value='pro') Premium
+                                    option(value='regular') Regular
+                                input(type='submit' value='Order')
+                        li.cf
+                            img(src='img/Capture11.PNG')
+                            .bike-info
+                                h5 Raleigh Felix Step through 
+                                p.bike-price 2100.00
+                                p.brakes Hydraulic Disc-Brakes
+                            .bike-option
+                                select#bike-mods
+                                    option(value='option' disabled='' selected='') Option
+                                    option(value='pro') Premium
+                                    option(value='regular') Regular
+                                input(type='submit' value='Order')
+                        li.cf
+                            img(src='img/Capture12.PNG')
+                            .bike-info
+                                h5 Apollo Spiral 
+                                p.bike-price 220.00
+                                p.brakes Steel V-Brakes
+                            .bike-option
+                                select#bike-mods
+                                    option(value='option' disabled='' selected='') Option
+                                    option(value='pro') Premium
+                                    option(value='regular') Regular
+                                input(type='submit' value='Order')
